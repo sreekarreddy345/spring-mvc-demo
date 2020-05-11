@@ -14,7 +14,7 @@
 </head>
 <body>
 <form:form class="uk-form uk-form-horizontal" method="post" modelAttribute="student"
-           action="${pageContext.request.contextPath}/students/saveStudents">n
+           action="${pageContext.request.contextPath}/students/saveStudents">
     <legend>Book Information</legend>
     <div class="uk-form-row"></div>
     <label class="uk-form-label uk-text-bold">Student FirstName</label>

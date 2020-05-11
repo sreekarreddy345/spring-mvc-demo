@@ -29,7 +29,7 @@
     <hr class="uk-article-divider">
     <form:input path="userName" type="text" name="uname" placeholder="Username"/>
     <br/>
-    <form:input path="password" type="text" name="pass" placeholder="Password"/>
+    <form:input path="password" type="password" name="pass" placeholder="Password"/>
     <br/>
     <br/>
     <input type="submit" value="Login"/>

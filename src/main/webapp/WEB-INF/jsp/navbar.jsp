@@ -21,6 +21,9 @@
     <ul class="uk-navbar-nav">
         <li class="uk-active"><a href=<%=contextPath%>/students>Students</a></li>
         <li class="uk-active"><a href=<%=contextPath%>/books>Books</a></li>
+        <li class="uk-active"><a href=<%=contextPath%>/students/addStudents>Add Student</a></li>
+        <li class="uk-active"><a href=<%=contextPath%>/books/addBooks>Add Book</a></li>
+
     </ul>
 
     <div class="uk-navbar-content uk-navbar-flip">

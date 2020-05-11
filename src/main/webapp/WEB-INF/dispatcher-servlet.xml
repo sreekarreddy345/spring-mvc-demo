@@ -26,7 +26,7 @@
     <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource"
           destroy-method="close">
        <property name="driverClass" value="com.mysql.cj.jdbc.Driver"/>
-        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/sreekar"/>
+        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/sreekar?useSSL=false"/>
         <property name="user" value="Sreekar"/>
         <property name="password" value="Sree@1234"/>
 
